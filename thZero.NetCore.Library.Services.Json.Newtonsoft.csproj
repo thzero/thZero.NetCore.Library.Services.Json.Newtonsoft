@@ -4,17 +4,18 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<AssemblyName>thZero.NetCore.Library.Services.Json.Newtonsoft</AssemblyName>
 		<PackageId>thZero.NetCore.Library.Services.Json.Newtonsoft</PackageId>
-		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Description></Description>
+    <Authors>thZero.com</Authors>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Json.Newtonsoft</RepositoryUrl>
-		<RepositoryType>GitHub</RepositoryType>
-		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
-		<Authors>thZero.com</Authors>
-		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Json.Newtonsoft</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Json.Newtonsoft</PackageProjectUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Services.Json.Newtonsoft</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
