@@ -35,7 +35,7 @@ namespace thZero.Services
         }
     }
 
-    public sealed class ServiceJsonNewtonsoft : ServiceLoggableBase<ServiceJsonNewtonsoft>, IServiceJson
+    public sealed class ServiceJsonNewtonsoft : ServiceBase<ServiceJsonNewtonsoft>, IServiceJson
     {
         public ServiceJsonNewtonsoft(ILogger<ServiceJsonNewtonsoft> logger) : base(logger)
         {
@@ -166,7 +166,7 @@ namespace thZero.Services.Internal
         #endregion
 
         #region Fields
-        private static readonly object _lock = new object();
+        private static readonly object _lock = new();
         private static volatile IServiceJsonSettings _settingsJson;
         #endregion
     }
